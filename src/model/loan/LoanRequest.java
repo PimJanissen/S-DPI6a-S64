@@ -1,15 +1,17 @@
 package model.loan;
 
+import java.io.Serializable;
+
 /**
  *
  * This class stores all information about a
  * request that a client submits to get a loan.
  *
  */
-public class LoanRequest {
+public class LoanRequest implements Serializable {
 
     private int ssn; // unique client number.
-    private int amount; // the ammount to borrow
+    private int amount; // the amount to borrow
     private int time; // the time-span of the loan
 
     public LoanRequest() {

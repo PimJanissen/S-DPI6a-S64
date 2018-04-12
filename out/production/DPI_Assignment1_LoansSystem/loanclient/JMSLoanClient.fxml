@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loanclient.Controller">
+    <children>
+      <ListView fx:id="lvRequests" layoutY="124.0" prefHeight="276.0" prefWidth="600.0" />
+      <Label layoutX="54.0" layoutY="23.0" text="ssn" />
+      <Label layoutX="34.0" layoutY="55.0" text="amount" />
+      <Label layoutX="51.0" layoutY="86.0" text="time" />
+      <TextField fx:id="txtSSN" layoutX="113.0" layoutY="19.0" />
+      <TextField fx:id="txtAmount" layoutX="113.0" layoutY="51.0" />
+      <TextField fx:id="txtTime" layoutX="113.0" layoutY="82.0" />
+      <Button fx:id="btnSendRequest" layoutX="457.0" layoutY="82.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="Send loan request" onAction="#handleBtnSendRequestAction"/>
+    </children>
+</Pane>
