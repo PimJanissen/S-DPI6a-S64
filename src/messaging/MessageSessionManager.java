@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+@Deprecated
 public class MessageSessionManager {
     private static MessageSessionManager ourInstance = new MessageSessionManager();
 
